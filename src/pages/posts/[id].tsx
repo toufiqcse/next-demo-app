@@ -7,10 +7,10 @@ const Post: FunctionComponent<{
   post: Object
 }> = ({sPost}) => { 
   return <div>
-    <p className='text-2xl text-center'>Details post</p>
+    <p className='text-2xl text-center font-semibold'>Details post</p>
     <div className='p-[2em]'>
       <p className='font-medium text-[1.5rem] underline'>{sPost.title}</p>
-      <p className='text-[1.3rem]'>{sPost.body}</p>
+      <p className='text-[1.2rem]'>{sPost.body}</p>
     </div>
   </div>
 }
